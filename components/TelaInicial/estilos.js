@@ -2,24 +2,21 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#1c1c1c',
+    flex: 1
   },
 
-  // aplica flex ao próprio ScrollView — isso ajuda na web para capturar scroll
+
   scrollView: {
-    flex: 1,
-    width: '100%',
     backgroundColor: '#1c1c1c',
 
   },
 
-  // contentContainer do ScrollView
+
   scrollContent: {
     flexGrow: 1,
     paddingTop: 30,
     paddingHorizontal: 20,
-    paddingBottom: 160, // espaço extra para o último card
+    paddingBottom: 160,
     justifyContent: 'flex-start',
     alignItems: 'center',
   },

@@ -12,7 +12,7 @@ export default StyleSheet.create({
     justifyContent: 'center',
   },
   img: {
-    width: 250, // Ajuste o tamanho das imagens conforme necessário
+    width: 250,
     height: 250,
     resizeMode: 'contain',
     marginBottom: 10,

@@ -18,5 +18,6 @@ export default function App () {
         <Stack.Screen name="Nuvem" component={TelaNuvem} />
       </Stack.Navigator>
     </NavigationContainer>
+
   );
 }
